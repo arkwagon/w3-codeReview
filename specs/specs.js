@@ -3,7 +3,7 @@ describe('pingPong', function() {
     expect(pingPong(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
   });
   it("will convert string of numbers into a number array", function() {
-    expect(pingPong("1")).to.equal([1]);
+    expect(pingPong("1, 2, 3")).to.equal([ 1,2,3 ]);
   });
 });
 // describe('createNumberArray', function() {
