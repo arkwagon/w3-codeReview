@@ -1,9 +1,6 @@
-describe('pingPong', function() {
+describe('convertToNumberArray', function() {
   it("will convert a string to a number array", function() {
-    expect(pingPong("10")).to.eql([ 10 ]);
-  });
-  it("will count up by 1 to the inputNumber", function() {
-    expect(pingPong("5")).to.equal([1, 2, 3, 4, 5]);
+    expect(convertToNumberArray("10")).to.eql([ 10 ]);
   });
 });
 // describe('countUpToNumberArray', function() {

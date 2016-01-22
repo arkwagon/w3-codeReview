@@ -1,14 +1,3 @@
-var pingPong = function(inputNumber) {
-  var emptyString = inputNumber;
-  var initialArray = [parseInt(emptyString)];
-  return initialArray;
-  var countUpTo = initialArray;
-    for (var i = 0; i < countUpTo.length; i++) {
-      countUpTo = countUpTo + countUpTo[i];
-      console.log(countUpTo);
-    }
-    return countUpTo;
-}
 // var countUpToNumberArray = function(inputNumber) {
 //   var multiNumberArray = convertToNumberArray;
 //     for (index = 0, index = multiNumberArray, index++) {
@@ -18,6 +7,11 @@ var pingPong = function(inputNumber) {
 //     return numberArray;
 // }
 
+var convertToNumberArray = function(inputNumber) {
+  var emptyString = inputNumber;
+  var initialArray = [parseInt(emptyString)];
+  return initialArray;
+}
 
 
 //
