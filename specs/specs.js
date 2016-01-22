@@ -1,6 +1,9 @@
-describe('countUpTo', function() {
+describe('pingPong', function() {
   it("will count up by 1 to the inputNumber", function() {
-    expect(countUpTo(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    expect(pingPong(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  });
+  it("will convert the number string into a number array", function() {
+    expect(pingPong(10)).to.equal([1,2,3,4,5,6,7,8,9,10]);
   });
 });
 
