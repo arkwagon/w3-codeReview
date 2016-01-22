@@ -1,61 +1,24 @@
 describe('pingPong', function() {
   it("will count up by 1 to the inputNumber", function() {
-    expect(pingPong(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    expect(pingPong("10")).to.equal([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
   });
-  it("will convert string of numbers into a number array", function() {
-    expect(pingPong("1, 2, 3")).to.equal([ 1,2,3 ]);
-  });
+  // it("replace numbers divisible by 3 with ping", function() {
+  //   expect(pingPong("1, 2, 3")).to.equal("1, 2, ping");
+  // });
 });
-// describe('createNumberArray', function() {
+
+
+
+// describe('pingPong', function() {
 //   it("will count up by 1 to the inputNumber", function() {
-//     expect(createNumberArray(10)).to.equal([1,2,3,4,5,6,7,8,9,10]);
+//     expect(pingPong("10")).to.equal([ 1,2,3,4,5,6,7,8,9,10 ]);
 //   });
-// });
-
-
-
-
-
-// it("will convert the number string into a number array", function() {
-//   expect(pingPong(10)).to.equal([1,2,3,4,5,6,7,8,9,10]);
-// });
-
-
-
-
-
-
-
-// describe('countBy', function() {
-//   it("it will count by 1 to maxNumber", function () {
-//     expect(countBy(1, 10)).to.equal("1,2,3,4,5,6,7,8,9,10");
-//   });
-//   it("will county by 2 to maxNumber", function () {
-//     expect(countBy(2, 10)).to.equal("2,4,6,8,10");
-//   });
-//   it("will count by addNumber to maxNumber", function () {
-//     expect(countBy(3, 30)).to.equal("3,6,9,12,15,18,21,24,27,30");
-//   });
-// });
-
-
-
-
-
-// describe('countBy', function() {
-//   it("will return an array counting up to firstInput", function() {
-//     expect(countBy(5)).to.eql([1,2,3,4,5]);
-//   });
-// });
-
-// describe('makeArray', function() {
-//   it("will take the number and put it in an array", function () {
-//     expect(makeArray(30)).to.eql([ 30 ]);
-//   });
+//   // it("will convert string of numbers into a number array", function() {
+//   //   expect(pingPong("1, 2, 3")).to.equal([ 1,2,3 ]);
+//   // });
 // });
 //
-// describe('convertNumber', function() {
-//   it("will convert a string into a number", function() {
-//     expect(convertNumber("30")).to.equal(30);
-//   });
-// });
+//
+//
+//
+//
