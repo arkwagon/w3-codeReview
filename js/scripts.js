@@ -1,8 +1,8 @@
-var countUp = function(inputNumber) {
-    answer = "";
-    for (var index = 0; index <= inputNumber; i++) {
-      answer = answer + index + ", ";
+var countUpTo = function(inputNumber) {
+    var numberString = "";
+    for (var index = 0; index <= inputNumber; index++) {
+      numberString = numberString + index + ", ";
     }
-    answer = answer.slice(2, answer.length-1);
-  return answer;
+      numberString = numberString.slice(3, numberString.length-2);
+    return numberString;
 }

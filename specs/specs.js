@@ -1,6 +1,6 @@
-describe('countUp', function() {
-  it("will count up by 1 to the inputNumber", function () {
-    expect(countUp(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+describe('countUpTo', function() {
+  it("will count up by 1 to the inputNumber", function() {
+    expect(countUpTo(10)).to.equal("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
   });
 });
 
