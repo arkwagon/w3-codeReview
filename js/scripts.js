@@ -1,12 +1,17 @@
 var pingPong = function(inputNumber) {
-    var numberString = "";
+    var emptyString = "";
     for (var index = 0; index <= inputNumber; index++) {
-      numberString = numberString + index + ", ";
+      emptyString = emptyString + index + ", ";
     }
-      numberString = numberString.slice(3, numberString.length-2);
+    var numberString = emptyString.slice(3, emptyString.length-2);
     return numberString;
 
-
     var numberArray = [];
+    numberArray.push(numberString);
     return numberArray;
 }
+
+// var createNumberArray = function(numberString) {
+//     var numberArray = [];
+//     numberArray.push()
+// }
