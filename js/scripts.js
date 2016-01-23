@@ -1,11 +1,12 @@
 
 var pingPong = function(inputNumber) {
-  var countToNumber = [];
+  var countToNumber = "";
   for (var index = 0; index <= inputNumber; index++) {
     countToNumber = countToNumber + index + ", ";
   }
     countToNumber = countToNumber.slice(3, countToNumber.length-2);
   return countToNumber;
+
 }
 
 
