@@ -14,7 +14,7 @@ _Create a web application that takes a number from a user and returns a range of
 
 ## Known Bugs
 
-_Not as of yet._
+_Unable to get it working yet again._
 
 ## Support and contact details
 
