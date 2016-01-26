@@ -1,15 +1,20 @@
 
 var pingPong = function(inputNumber) {
-  var countToNumber = "";
-  for (var index = 0; index <= inputNumber; index++) {
-    countToNumber = countToNumber + index + ", ";
+  var output = [];
+
+  for (var index = 1; index <= inputNumber; index++) {
+    if (index % 3 === 0) {
+      output.push("ping");
+    } else {
+      output.push(index);
+    }
   }
-    countToNumber = countToNumber.slice(3, countToNumber.length-2);
-  return countToNumber;
+  return output;
 
 }
 
-
+// output.push(index);
+// return output;
 // var pingPong = function(inputNumber) {
 //   var countToNumber = "";
 //   for (var index = 0; index <= countToNumber.length; index++) {
