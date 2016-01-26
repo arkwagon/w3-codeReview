@@ -1,0 +1,18 @@
+.jumbotron {
+  text-align: center;
+}
+
+#formRow {
+  text-align: center;;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#results {
+  /*display: none;*/
+  text-align: center;
+}
