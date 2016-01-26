@@ -8,7 +8,7 @@ describe('pingPong', function() {
   it("will replace multiples of 5 with pong", function() {
     expect(pingPong(5)).to.eql([1, 2, "ping", 4, "pong"]);
   });
-  it("will replace multiples of 5 with pong", function() {
+  it("will replace multiples of 15 with pingpong", function() {
     expect(pingPong(15)).to.eql([1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "pingpong"]);
   });
 });
