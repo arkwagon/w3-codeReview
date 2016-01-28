@@ -18,7 +18,7 @@ var pingPong = function(inputNumber) {
 
 $(document).ready(function() {
   $("form#pingPong").submit(function(event) {
-    event.preventDefault();
+  event.preventDefault();
 
     $("ul#numberSequence").empty();
 
@@ -29,7 +29,6 @@ $(document).ready(function() {
       listResults.forEach(function(result) {
         $("ul#numberSequence").append("<li id='listColor'>" + result + "</li>");
       });
-      return listResults;
-
+      
   });
 });
