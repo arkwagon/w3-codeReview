@@ -27,7 +27,7 @@ $(document).ready(function() {
     var listResults = pingPong(inputNumber);
       $("ul#numberSequence").empty();
       listResults.forEach(function(result) {
-        $("ul#numberSequence").append("<li>" + result + "</li>");
+        $("ul#numberSequence").append("<li id='listColor'>" + result + "</li>");
       });
       return listResults;
 

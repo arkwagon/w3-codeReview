@@ -1,9 +1,15 @@
-.jumbotron {
-  text-align: center;
+body {
+  background-color: #f2f2f2;
 }
 
-#formRow {
-  text-align: center;;
+
+.jumbotron {
+  text-align: center;
+  background-color: #ffecb3;
+}
+
+#rulesAndGame {
+  text-align: center;
 }
 
 .form-group {
@@ -12,11 +18,20 @@
   margin-bottom: 10px;
 }
 
-#results {
-  text-align: center;
+#beginGame {
+  margin-top: 25px;
 }
 
 li {
   list-style-type: none;
   margin-right: 50px;
+}
+
+#results {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#listColor {
+  color: #e60000;
 }
