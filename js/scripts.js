@@ -16,13 +16,20 @@ var pingPong = function(inputNumber) {
   return output;
 }
 
-
 $(document).ready(function() {
-  $("form#user-number").submit(function(event) {
+  $("form#pingPong").submit(function(event) {
     event.preventDefault();
-    
-    var inputNumber = parseInt( $("input#user-number").val() );
 
+    $("ul#numberSequence").empty();
+
+    var inputNumber = $("input#userNumber").val();
+
+    var listResults = pingPong(inputNumber);
+      $("ul#numberSequence").empty();
+      listResults.forEach(function(result) {
+        $("ul#numberSequence").append("<li>" + result + "</li>");
+      });
+      return listResults;
 
   });
 });
